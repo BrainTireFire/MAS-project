@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PB2ZYLzZSiim6aimkp3WdFQ4YqB5zrYHkuqzKvxHKeTTYsDwe56o8YIvHNJZTwfcPbxYMZENgsX1NHWvXPqa+w==",
+  "dgSpecHash": "XbAfK/Tlq0ZpDZB3AGHadAbyAclCFbkiK5NpbbKdTOD0LX0kFY1rWOSA1HQAFpIMaaMRc+LQl6IzUvA96snqag==",
   "success": true,
-  "projectFilePath": "P:\\Projects\\C#\\MAS\\FueliciousFit\\API\\API\\API.csproj",
+  "projectFilePath": "P:\\Projects\\C#\\MAS\\FueliciousFit v0.1\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BrainPC\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\BrainPC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

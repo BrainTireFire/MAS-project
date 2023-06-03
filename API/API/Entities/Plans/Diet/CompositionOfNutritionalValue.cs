@@ -2,9 +2,10 @@
 {
     public class CompositionOfNutritionalValue
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public int IdCompositionOfNutritionalValue { get; set; }
+        public string Name { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public virtual Dish Dish { get; set; } = null!;
 
     }
 }

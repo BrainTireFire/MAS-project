@@ -2,8 +2,8 @@
 {
     public class Instrument
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<ExerciseWithTheDevice> ExerciseWithTheDevices { get; set; }
+        public int IdInstrument { get; set; }
+        public string Name { get; set; } = null!;
+        public ICollection<ExerciseWithTheDevice> ExerciseWithTheDevices { get; set; } = new List<ExerciseWithTheDevice>();
     }
 }

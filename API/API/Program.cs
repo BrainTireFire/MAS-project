@@ -22,6 +22,7 @@ builder.Services.AddDbContext<DataContext>(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IDbService, DbService>();
 builder.Services.AddIdentityCore<AppUser>(options =>
 {
     options.Password.RequireNonAlphanumeric = false;

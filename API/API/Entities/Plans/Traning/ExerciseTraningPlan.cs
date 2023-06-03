@@ -2,7 +2,10 @@
 {
     public class ExerciseTraningPlan
     {
-        public ICollection<Exercise> Exercises { get; set; }
-        public TrainingPlan TrainingPlan { get; set; }
+        public int IdExerciseTraningPlan { get; set; }
+        public int IdExercise { get; set; }
+        public int IdTraningPlan { get; set; }
+        public ICollection<Exercise> Exercises { get; set; } = new List<Exercise>();
+        public TrainingPlan TrainingPlan { get; set; } = null!;
     }
 }

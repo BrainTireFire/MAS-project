@@ -2,6 +2,7 @@
 {
     public class ExerciseWithTheDevice : Exercise
     {
-        public ICollection<Instrument> Instruments { get; set; }
+        public int IdExerciseDevice { get; set; }
+        public ICollection<Instrument> Instruments { get; set; } = new List<Instrument>();
     }
 }

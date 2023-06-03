@@ -2,11 +2,11 @@
 {
     public class Dish
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public int IdDish { get; set; }
+        public string Name { get; set; } = null!;
+        public string Description { get; set; } = null!;
         public int AmountOfCaloriesInTheDish { get; set; }
-        public ICollection<DishDietPlan> DishDietPlans { get; set; }
-        public CompositionOfNutritionalValue CompositionOfNutritionalValue { get; set; }
+        public ICollection<DishDietPlan> DishDietPlans { get; set; } = new List<DishDietPlan>();
+        public CompositionOfNutritionalValue CompositionOfNutritionalValue { get; set; } = null!;
     }
 }
